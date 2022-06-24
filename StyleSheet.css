@@ -1,0 +1,199 @@
+body{
+    color:  white;
+    background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    display: flex;
+    justify-content: center;
+    align-self: center; 
+}
+#container{
+    height: fit-content;
+    width: 640px;
+    background-color: #202020;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.botaox{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    top: -1265px;
+    left: 595px;
+    border-radius: 15px;
+    opacity: 0.8;
+    background-color: #202020;
+    border-color: white;
+}
+.match-percentage{
+    position: relative;
+    top: 20px;
+    left: 35px;
+    color: #46d369;
+}
+.ano{
+    position: relative;
+    top: -17px;
+    left: 155px;
+}
+.box{
+    height: 100%;
+}
+#imagem-fluxo{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+#texto-fluxo{
+    position: relative;
+    background-color: #202020;
+    height: 900px;
+    width: 640px;
+    top: -930px;
+    left: 0px;
+}
+.top{
+    position: relative;
+    height: 20px;
+    top: -20px;
+    left: -56px;
+}
+.classificacao{
+    position: relative;
+    height: 30px;
+    left: 200px;
+    top: -58px;
+}
+.idade{
+    position: relative;
+    top: -67px;
+    left: 208px;
+}
+.top-descricao{
+    position: relative;
+    top: -25px;
+    left: -52px;
+}
+.descricao{
+    position: relative;
+    top: -25px;
+    left: 39px;
+    width: 320px;
+}
+.logo-fluxo{
+    position: relative;
+    height: 210px;
+    width: 210px;
+    top: -970px;
+    left: -27px;
+}
+.entrar{
+    position: relative;
+    height: 40px;
+    width: 110px;
+    top: -985px;
+    left: -215px;
+}
+.lista{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    top: -985px;
+    left: -210px;
+    border-radius: 20px;
+    opacity: 0.6;
+    background-color: #202020;
+    border-color: white;
+}
+.like{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    top: -985px;
+    left: -210px;
+    border-radius: 20px;
+    opacity: 0.6;
+    background-color: #202020;
+    border-color: white;
+}
+.mute{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    top: -985px;
+    left: 120px;
+    border-radius: 20px;
+    opacity: 0.6;
+    background-color: #202020;
+    border-color: white;
+    
+}
+#background{
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.opacity{
+    position: relative;
+    height: 540px;
+    width: 640px;
+    top: -544px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: linear-gradient(
+        rgba(0,0,0,0),rgba(0,0,0,0)30%,rgb(32, 32, 32)70%
+    ), url(assets/FluxoEMPI.jpg);
+    
+}
+.elenco{
+    position: relative;
+    height: 50px;
+    width: 270px;
+    left: 370px;
+    top: -140px;
+}
+.genero{
+    position: relative;
+    height: 50px;
+    width: 260px;
+    left: 370px;
+    top: -147px;
+}
+#cover-elenco{
+    position: relative;
+    left: 370px;
+    top: -272px;
+    color: gray;
+}
+#cover-genero{
+    position: relative;
+    left: 370px;
+    top: -250px;
+    color: gray;
+}
+.entrar-texto{
+    position: relative;
+    top: -5px;
+    color: black;
+}
+.playbttn{
+    position: relative;
+    top: 2px;
+}
+.xbttn{
+    position: relative;
+    height: 15px;
+    top: 1px;
+}
+.plusbttn{
+    position: relative;
+    top: 2px;
+}
+.mutebttn{
+    position: relative;
+    top: 2px;
+}
